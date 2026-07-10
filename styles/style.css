@@ -7,8 +7,18 @@
     max-width: 1200px;
     margin: auto;
 }
+.common-btn{
+    background: #1D4ED8;
+    color: #FFFFFF;
+    font-weight:bold;
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+}
 
-
+header{
+    margin-top: 28px !important;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,6 +28,7 @@ nav{
 .logo-container{
     display: flex;
     gap: 8px;
+    cursor: pointer;
 }
 .logo-container h3{
     font-weight: bold;
@@ -25,3 +36,16 @@ nav{
     color: #0D1B2A;
     font-family: "Arimo", sans-serif;
 }
+
+nav ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    color: #575757;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+
+
+
