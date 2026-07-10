@@ -1,0 +1,27 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    gap: 8px;
+}
+.logo-container h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0D1B2A;
+    font-family: "Arimo", sans-serif;
+}
