@@ -1,43 +1,49 @@
-*{
+* {
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
 }
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
-.common-btn{
-    background: #1D4ED8;
-    color: #FFFFFF;
-    font-weight:bold;
-    padding: 12px 24px;
-    border-radius: 12px;
-    cursor: pointer;
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 60px;
 }
 
-header{
-    margin-top: 28px !important;
+.common-btn {
+    background: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 16px 30px;
+    border-radius: 8px;
+    border: none;
 }
-nav{
+
+header {
+    margin: 28px auto !important;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 60px;
 }
 
-.logo-container{
+.logo-container {
     display: flex;
     gap: 8px;
     cursor: pointer;
 }
-.logo-container h3{
+
+.logo-container h3 {
     font-weight: bold;
     font-size: 20px;
     color: #0D1B2A;
     font-family: "Arimo", sans-serif;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 24px;
     list-style: none;
@@ -46,6 +52,68 @@ nav ul{
     font-weight: normal;
 }
 
+.banner-section {
+    padding: 9rem 9rem 4rem 9rem;
+    background-image:
+        radial-gradient(circle, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%),
+        url('../assets/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.banner h3 {
+    font-weight: bold;
+    font-size: 80px;
+    color: #FFFFFF;
+}
 
+.banner p {
+    margin-top: 16px;
+    color: #f9f7f7e6;
+    font-size: 22px;
+}
+
+.banner button {
+    margin-top: 280px;
+}
+
+.speakers-details-boxs{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 32px ;
+
+}
+
+.speakers-single-box{
+    background: #e6e8eb54;
+    border-radius: 12px;
+}
+.speakers-single-box h4{
+    margin:24px 0px 8px 24px;
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 12px;
+}
+.speakers-single-box h2{
+    margin:0px 0px 8px 24px;
+    color: #0D1B2A;
+    font-weight: 700;
+    font-size: 20px;
+}
+.speakers-single-box p{
+    margin:0px 0px 24px 24px;
+    color: #575757;
+    font-weight: normal;
+    font-size: 14px;
+}
+.speakers-single-box img{
+    border-radius: 12px;
+}
