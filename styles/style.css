@@ -52,6 +52,8 @@ nav ul {
     font-weight: normal;
 }
 
+/* ----------------------------Banner section Css Start --------------------- */
+
 .banner-section {
     padding: 9rem 9rem 4rem 9rem;
     background-image:
@@ -84,7 +86,12 @@ nav ul {
 .banner button {
     margin-top: 280px;
 }
+/* ----------------------------Banner section Css END --------------------- */
 
+
+
+
+/* --------------------------Speaker Section CSS   Start-----------------------------*/
 .speakers-details-boxs{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
@@ -117,3 +124,65 @@ nav ul {
 .speakers-single-box img{
     border-radius: 12px;
 }
+
+/* --------------------------Speaker Section CSS Start --------------------------- */
+
+
+/* -------------------------------Pricing Cart CSS Start------------------------------ */
+.pricing-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.standard-cart p , .team-cart p , .pro-cart p{
+    font-size: 13px;
+    color: #888888;
+}
+
+.standard-cart h3 , .team-cart h3 , .pro-cart h3{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 44px;
+    margin: 8px 0px 4px 0px;
+}
+.standard-cart hr , .team-cart hr , .pro-cart hr{
+    margin: 20px 0px;
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+}
+.pro-cart hr{
+    margin: 20px 0px;
+    border: 0;
+    border-top: 1px solid #FFFFFF1A;
+}
+
+.standard-cart , .pro-cart , .team-cart{
+    padding: 32px;
+    width: 100%;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.standard-cart li::marker , .team-cart li::marker , .pro-cart li::marker{
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: bold;
+}
+.standard-cart li , .team-cart li , .pro-cart li{
+    margin-left: 12px;
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 14px;
+}
+.pro-cart {
+    background-color: #0D1B2A;
+}
+.pro-cart li {
+    color: #FFFFFFCC;
+}
+
+
+/* -------------------------------Pricing Cart CSS End----------------------------- */
