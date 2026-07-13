@@ -190,6 +190,109 @@ nav ul {
 /* -------------------------------Pricing Cart CSS End----------------------------- */
 
 
+
+/* -------------------------------Ai Generated CSS Start ------------------------- */
+
+/* DevConf Hackathon Section Styling */
+.devconf-hackathon {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  padding: 80px 24px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.hackathon-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.devconf-hackathon .section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.devconf-hackathon .section-subtitle {
+  font-size: 16px;
+  color: #475569;
+  max-width: 600px;
+  margin: 0 auto 48px auto;
+  line-height: 1.6;
+}
+
+.hackathon-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.hackathon-card {
+  flex: 1;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: left;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.hackathon-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Subtle accent for the prize card to mirror the pricing grid flow */
+.hackathon-card.highlighted-card {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.hackathon-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.hackathon-card p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.hackathon-action {
+  margin-top: 32px;
+}
+
+/* Matches the exact DevConf primary blue button */
+.devconf-hackathon .btn-primary {
+  display: inline-block;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 12px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.devconf-hackathon .btn-primary:hover {
+  background-color: #1e40af;
+}
+
+/* ------------------------------Ai Generated CSS End------------------------ */
+
+
 /*---------------------------------- Footer CSS STRAT ----------------------- */
 
 .footer-container{
@@ -244,4 +347,6 @@ nav ul {
     color: #FFFFFF66;
     cursor: pointer;
 }
+
+
 
