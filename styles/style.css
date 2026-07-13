@@ -336,17 +336,14 @@ nav ul {
     cursor: pointer;
 }
 
-.right-lower-footer{
+.copyright-portion{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.right-lower-footer a{
+.copyright-portion>div>a{
     color: #FFFFFF66;
     cursor: pointer;
+    margin-left: 16px;
 }
-
-
-
